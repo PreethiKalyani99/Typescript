@@ -11,3 +11,4 @@ function toRNA(dna : string): string{
     return rna
 }
 console.log(toRNA('TvA'))
+console.log(toRNA('GACT'))
