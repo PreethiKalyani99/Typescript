@@ -1,7 +1,4 @@
-function twoFer(name : any): string{
-    if(!name){
-        return 'One for you, one for me.'
-    }
+function twoFer(name : any = 'you'): string{
     return `One for ${name}, one for me.`
 }
 console.log(twoFer(''))
