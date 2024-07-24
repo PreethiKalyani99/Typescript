@@ -31,3 +31,8 @@ function commands(num: number): string[]{
     }
     return arr
 }
+
+console.log(commands(2)) 
+console.log(commands(0))
+console.log(commands(9))
+console.log(commands(15))
