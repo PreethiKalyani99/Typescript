@@ -13,3 +13,10 @@ export const total = (): bigint => {
     }
     return sum
 }
+
+console.log(square(4))
+console.log(square(16))
+console.log(square(0))
+console.log(square(-7))
+console.log(square(65))
+console.log(total())
